@@ -6,7 +6,7 @@ This is a admin panel with many features, such as a surveys system, a calendar, 
   - /polls/functions.php
 
 | Database for authentication. (Will be one file when second release)
-  - /auth/events/db_connect.php
+  - /scripts/db_connect.php
 
 | Email to send surveys to.
   - /surveys/survey.php
