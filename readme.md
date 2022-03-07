@@ -2,8 +2,11 @@
 This is a admin panel with many features, such as a surveys system, a calendar, and also a reservation system! This system is in beta, so you can experience some bugs! Contact me if you have any questions!
 
 # Where to edit?
-| Database for polls.
+| Database for polls. (Will be one file when second release)
   - /polls/functions.php
+
+| Database for authentication. (Will be one file when second release)
+  - /auth/events/db_connect.php
 
 | Email to send surveys to.
   - /surveys/survey.php
