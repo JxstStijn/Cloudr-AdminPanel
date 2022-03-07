@@ -1,8 +1,8 @@
 <?php
-// We need to use sessions, so you should always start sessions using the below code.
+// Met deze code starten we een sessie!
 session_start();
 
-// If the user is not logged in redirect to the login page...
+// Redirect gebruiker als hij/zij niet ingelogd is!
 if (!isset($_SESSION['loggedin'])) {
 	header('Location: /auth/login');
 	exit;
