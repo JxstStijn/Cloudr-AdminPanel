@@ -1,5 +1,5 @@
 <?php
-// Met deze code starten we een sessie!
+// Met deze code starten we een sessie!!
 session_start();
 
 // Redirect gebruiker als hij/zij niet ingelogd is!
